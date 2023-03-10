@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MauriceDR - Twitch</title>
+    <link rel="icon" href="images/pngwing.com.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <!-- BANNER -->
+    <div class="banner">
+      <div class="left-part">
+        <img src="images/pngwing.com.png" />
+        <h1>Following</h1>
+        <h2>Browse</h2>
+        <span class="material-symbols-outlined" id="left-more">
+          more_vert
+        </span>
+      </div>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Search" id="search-input" />
+        <button>
+          <span class="material-symbols-outlined"> search </span>
+        </button>
+      </div>
+
+      <div class="right-part">
+        <span class="material-symbols-outlined" id="right-1"> school </span>
+        <span class="material-symbols-outlined" id="messages-icon"> mail </span>
+        <!--MESSAGES DROPDOWN-->
+        <div class="messages-container">
+          <div class="messages-title">
+            <h1>Messages</h1>
+            <span class="material-symbols-outlined"> settings </span>
+            <span class="material-symbols-outlined" id="messages-close">
+              close
+            </span>
+          </div>
+          <div class="messages-search">
+            <span class="material-symbols-outlined"> search </span>
+            <input
+              type="text"
+              placeholder="Search for People"
+              id="messages-input"
+            />
+          </div>
+          <div class="messages-chat">
+            <span class="material-symbols-outlined"> person </span>
+            <div class="messages-chat-align">
+              <h1>JoeSmo3</h1>
+              <h2>hey, i have been enjoying your streams alot!</h2>
+            </div>
+          </div>
+          <div class="messages-chat">
+            <span class="material-symbols-outlined"> person </span>
+            <div class="messages-chat-align">
+              <h1>HarryLarry</h1>
+              <h2>just wondering when the next stream will be...</h2>
+            </div>
+          </div>
+          <div class="messages-chat">
+            <span class="material-symbols-outlined"> person </span>
+            <div class="messages-chat-align">
+              <h1>JuliusCeaser</h1>
+              <h2>yo! add me back please</h2>
+            </div>
+          </div>
+        </div>
+        <!--MESSSAGES DROPDOWN END-->
+        <h3 id="mail-notification">3</h3>
+        <span class="material-symbols-outlined" id="right-3">
+          chat_bubble
+        </span>
+        <div class="bits">
+          <span class="material-symbols-outlined"> diamond </span>
+          <h1>Get Bits</h1>
+        </div>
+        <span class="material-symbols-outlined" id="profile-pic">
+          account_circle
+        </span>
+        <!--DROPDOWN-->
+        <div class="dropdown">
+          <div class="dropdown-name">
+            <span class="material-symbols-outlined"> account_circle </span>
+            <h1>MauriceDR</h1>
+          </div>
+          <div class="dropdown-theme">
+            <span class="material-symbols-outlined"> dark_mode </span>
+            <h1>Dark Theme</h1>
+            <span class="material-symbols-outlined" id="darkmode">
+              toggle_on
+            </span>
+          </div>
+          <div class="dropdown-logout">
+            <span class="material-symbols-outlined"> logout </span>
+            <h1>Log Out</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+      <div class="foryou">
+        <h1>For You</h1>
+        <span class="material-symbols-outlined"> width </span>
+      </div>
+      <div class="followed-channels">
+        <h1>FOLLOWED CHANNELS</h1>
+        <h2>Viewers (High to Low)</h2>
+        <span class="material-symbols-outlined"> unfold_less </span>
+      </div>
+      <div class="users">
+        <!--User1-->
+        <div class="users-picture">
+          <span class="material-symbols-outlined" id="users-profile">
+            face
+          </span>
+        </div>
+        <div class="users-title">
+          <h1>CharlesBarkley</h1>
+          <h2>Just Chatting</h2>
+        </div>
+        <div class="users-viewers">
+          <span class="material-symbols-outlined" id="users-online">
+            fiber_manual_record
+          </span>
+          <h1>16,402</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-main">
+      <div class="stream-chat">
+        <span class="material-symbols-outlined"> width </span>
+        <h1>STREAM CHAT</h1>
+        <span class="material-symbols-outlined"> group </span>
+      </div>
+      <!--Leaderboard-->
+      <div class="leaderboard">
+        <span class="material-symbols-outlined" id="leaderboard-left">
+          chevron_left
+        </span>
+        <div class="leaderboard-first">
+          <span class="material-symbols-outlined" id="leaderboard-crown-1">
+            redeem
+          </span>
+          <h1>Sonichedge</h1>
+        </div>
+        <div class="leaderboard-second">
+          <span class="material-symbols-outlined" id="leaderboard-crown-2">
+            redeem
+          </span>
+          <h1>CNTowerGuy</h1>
+          <span class="material-symbols-outlined" id="leaderboard-crown-3">
+            redeem
+          </span>
+          <h1>Boldking1993</h1>
+        </div>
+        <span class="material-symbols-outlined" id="leaderboard-right">
+          chevron_right
+        </span>
+      </div>
+
+      <!--Chat Messages-->
+      <div class="chat">
+        <div class="chat-messages">
+          <span class="material-symbols-outlined"> hotel_class </span>
+          <h2>
+            <span id="name1">Bobjoe<span id="period">:</span></span
+            >This stream is interesting
+          </h2>
+        </div>
+        <div class="chat-messages">
+          <span class="material-symbols-outlined"> hotel_class </span>
+          <h2>
+            <span id="name2">JerryW<span id="period">:</span></span
+            >LOL
+          </h2>
+        </div>
+        <div class="chat-messages">
+          <span class="material-symbols-outlined"> hotel_class </span>
+          <h2>
+            <span id="name3">Harry92<span id="period">:</span></span
+            >Best quality ever!
+          </h2>
+        </div>
+        <div class="chat-messages">
+          <span class="material-symbols-outlined"> hotel_class </span>
+          <h2>
+            <span id="name4">JoeDirt91<span id="period">:</span></span
+            >Aren't sharks incredibly smart?
+          </h2>
+        </div>
+        <div class="chat-messages">
+          <span class="material-symbols-outlined"> hotel_class </span>
+          <h2>
+            <span id="name5">BeesWax00<span id="period">:</span></span
+            >Someone send me the yt link
+          </h2>
+        </div>
+        <!--USER INPUT FROM CHAT-->
+        <div class="user-input"></div>
+      </div>
+      <div class="chat-search">
+        <span class="material-symbols-outlined" id="chat-prime">
+          request_quote
+        </span>
+        <input type="text" placeholder="Send a message" id="chat-input" />
+        <span class="material-symbols-outlined" id="chat-bits"> diamond </span>
+        <span class="material-symbols-outlined" id="chat-emote">
+          sentiment_satisfied
+        </span>
+      </div>
+      <div class="chat-button">
+        <div class="chat-points">
+          <span class="material-symbols-outlined"> bolt </span>
+          <h1>549.2k</h1>
+        </div>
+        <div class="chat-settings">
+          <span class="material-symbols-outlined"> settings </span>
+          <button id="chat-button">Chat</button>
+        </div>
+      </div>
+    </div>
+
+    <!--Main Screen Section-->
+    <div class="main-screen">
+      <div class="screen">
+        <iframe
+          width="1367"
+          height="740"
+          src="https://www.youtube.com/embed/pgYmY6--DjI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <div class="main-info">
+      <div class="">
+        <img src="images/live.png" alt="" />
+        <span class="material-symbols-outlined" id="main-info-profile">
+          person
+        </span>
+      </div>
+
+      <div class="main-info-container">
+        <div class="main-info-user">
+          <h1>MauriceDR</h1>
+          <span class="material-symbols-outlined"> verified </span>
+          <div class="main-info-buttons">
+            <span class="material-symbols-outlined" id="fav"> favorite </span>
+            <span class="material-symbols-outlined" id="bell">
+              notifications
+            </span>
+            <div class="subscription">
+              <span class="material-symbols-outlined" id="star"> star </span>
+              <h2>Continue Sub - 7 Days Remaining</h2>
+            </div>
+            <div class="gift">
+              <span class="material-symbols-outlined"> request_quote </span>
+              <h2>Gift a Sub</h2>
+              <span class="material-symbols-outlined" id="expand">
+                expand_more
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="main-info-title">
+          <h2>
+            FINAL 24 HOUR STREAM * SHARK-ATHON DAY 30 *
+            <a href="https://github.com/MauriceDR">
+              <span></span> Github.com/MauriceDR</a
+            >
+          </h2>
+          <div class="main-info-livecount">
+            <span class="material-symbols-outlined" id="live-user">
+              person_4
+            </span>
+            <h2 id="livecount">72,499</h2>
+            <h2 id="timer">10:41:12</h2>
+            <span class="material-symbols-outlined" id="live-upload">
+              upload
+            </span>
+            <span class="material-symbols-outlined" id="live-more">
+              more_vert
+            </span>
+          </div>
+        </div>
+        <div class="main-info-category">
+          <a href="">Just Chatting </a>
+          <button>English</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
