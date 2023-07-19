@@ -23,8 +23,8 @@
     <div class="banner">
       <div class="left-part">
         <img src="images/pngwing.com.png" />
-        <h1>Following</h1>
-        <h2>Browse</h2>
+        <a href="#">Following</a>
+        <a href="#">Browse</a>
         <span class="material-symbols-outlined" id="left-more">
           more_vert
         </span>
@@ -38,8 +38,20 @@
       </div>
 
       <div class="right-part">
-        <span class="material-symbols-outlined" id="right-1"> school </span>
-        <span class="material-symbols-outlined" id="messages-icon"> mail </span>
+        <span
+          class="material-symbols-outlined"
+          id="right-1"
+          title="New Prime Loot"
+        >
+          school
+        </span>
+        <span
+          class="material-symbols-outlined"
+          id="messages-icon"
+          title="Notifications"
+        >
+          mail
+        </span>
         <!--MESSAGES DROPDOWN-->
         <div class="messages-container">
           <div class="messages-title">
@@ -81,14 +93,18 @@
         </div>
         <!--MESSSAGES DROPDOWN END-->
         <h3 id="mail-notification">3</h3>
-        <span class="material-symbols-outlined" id="right-3">
+        <span class="material-symbols-outlined" id="right-3" title="Whispers">
           chat_bubble
         </span>
         <div class="bits">
           <span class="material-symbols-outlined"> diamond </span>
           <h1>Get Bits</h1>
         </div>
-        <span class="material-symbols-outlined" id="profile-pic">
+        <span
+          class="material-symbols-outlined"
+          id="profile-pic"
+          title="Profile"
+        >
           account_circle
         </span>
         <!--DROPDOWN-->
@@ -115,12 +131,16 @@
     <div class="sidebar">
       <div class="foryou">
         <h1>For You</h1>
-        <span class="material-symbols-outlined"> width </span>
+        <span class="material-symbols-outlined" id="sidebar-foryou">
+          width
+        </span>
       </div>
       <div class="followed-channels">
         <h1>FOLLOWED CHANNELS</h1>
         <h2>Viewers (High to Low)</h2>
-        <span class="material-symbols-outlined"> unfold_less </span>
+        <span class="material-symbols-outlined" id="sidebar-followed">
+          unfold_less
+        </span>
       </div>
       <div class="users">
         <!--User1-->
@@ -177,6 +197,9 @@
       <!--Chat Messages-->
       <div class="chat">
         <div class="chat-messages">
+          <p>Welcome to the chat!</p>
+        </div>
+        <div class="chat-messages">
           <span class="material-symbols-outlined"> hotel_class </span>
           <h2>
             <span id="name1">Bobjoe<span id="period">:</span></span
@@ -214,24 +237,29 @@
         <!--USER INPUT FROM CHAT-->
         <div class="user-input"></div>
       </div>
-      <div class="chat-search">
-        <span class="material-symbols-outlined" id="chat-prime">
-          request_quote
-        </span>
-        <input type="text" placeholder="Send a message" id="chat-input" />
-        <span class="material-symbols-outlined" id="chat-bits"> diamond </span>
-        <span class="material-symbols-outlined" id="chat-emote">
-          sentiment_satisfied
-        </span>
-      </div>
-      <div class="chat-button">
-        <div class="chat-points">
-          <span class="material-symbols-outlined"> bolt </span>
-          <h1>549.2k</h1>
+
+      <div class="chat-message-container">
+        <div class="chat-search">
+          <span class="material-symbols-outlined" id="chat-prime">
+            request_quote
+          </span>
+          <input type="text" placeholder="Send a message" id="chat-input" />
+          <span class="material-symbols-outlined" id="chat-bits">
+            diamond
+          </span>
+          <span class="material-symbols-outlined" id="chat-emote">
+            sentiment_satisfied
+          </span>
         </div>
-        <div class="chat-settings">
-          <span class="material-symbols-outlined"> settings </span>
-          <button id="chat-button">Chat</button>
+        <div class="chat-button">
+          <div class="chat-points">
+            <span class="material-symbols-outlined"> bolt </span>
+            <h1>549.2k</h1>
+          </div>
+          <div class="chat-settings">
+            <span class="material-symbols-outlined"> settings </span>
+            <button id="chat-button">Chat</button>
+          </div>
         </div>
       </div>
     </div>
@@ -306,6 +334,20 @@
           <a href="">Just Chatting </a>
           <button>English</button>
         </div>
+      </div>
+    </div>
+
+    <div class="mobile">
+      <div class="mobile-screen">
+        <iframe
+          width="1367"
+          height="740"
+          src="https://www.youtube.com/embed/pgYmY6--DjI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   </body>

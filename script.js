@@ -27,8 +27,9 @@ const liveUpload = document.querySelector("#live-upload");
 const liveMore = document.querySelector("#live-more");
 const leaderboard = document.querySelector(".leaderboard");
 const messagesInput = document.querySelector("input");
-const period = document.querySelectorAll("#period");
-const leftPart = document.querySelectorAll(".left-part");
+const period = document.querySelector("#period");
+const forYou = document.querySelector("#sidebar-foryou");
+const followed = document.querySelector("#sidebar-followed");
 
 picture.addEventListener("click", function () {
   dropdown.classList.toggle("show");
@@ -71,6 +72,8 @@ darktheme.addEventListener("click", function () {
   messagesInput.classList.toggle("dark-theme");
   period.classList.toggle("dark-theme");
   leftPart.classList.toggle("dark-theme");
+  forYou.classList.toggle("dark-theme");
+  followed.classList.toggle("dark-theme");
 });
 
 //CHAT//
